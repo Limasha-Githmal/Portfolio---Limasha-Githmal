@@ -11,7 +11,7 @@ import { SiFigma, SiFirebase, SiGit } from "react-icons/si";
 
 function About() {
   return (
-    <div id="about" className="w-full py-10 px-[12%] scroll-mt-20">
+    <div id="about" className="w-full py-10 px-[12%] scroll-mt-20 ">
       {/* Headings */}
       <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
       <h2 className="text-center text-5xl font-Ovo">About Me</h2>

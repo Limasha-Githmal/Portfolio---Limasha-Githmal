@@ -49,7 +49,7 @@ export default function Work() {
   const projectsToShow = showAll ? projectsData : projectsData.slice(0, 4);
 
   return (
-    <div id="work" className="w-full py-16 px-[12%] scroll-mt-20">
+    <div id="work" className="w-full py-16 px-[12%] scroll-mt-20 ">
       <h4 className="text-center mb-2 text-lg font-Ovo">My latest work</h4>
       <h2 className="text-center text-5xl font-Ovo">My Projects</h2>
 
@@ -90,7 +90,7 @@ export default function Work() {
         <div className="flex justify-center mt-8">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="px-6 py-3 rounded-full bg-black text-white font-semibold hover:bg-gray-800 transition"
+            className="px-6 py-3 rounded-full bg-black text-white hover:bg-gray-800 transition font-Ovo"
           >
             {showAll ? "Show Less" : "Show More"}
           </button>

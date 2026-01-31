@@ -7,6 +7,7 @@ import { assets } from "@/assets/assets";
 export default function Navbar() {
   const [isScroll, setIsScroll] = useState(false);
   const sideMenuRef = useRef();
+  
 
   const openMenu = () => {
     sideMenuRef.current.style.transform = "translateX(-16rem)";
@@ -15,6 +16,7 @@ export default function Navbar() {
   const closeMenu = () => {
     sideMenuRef.current.style.transform = "translateX(16rem)";
   };
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,28 +52,24 @@ export default function Navbar() {
             isScroll ? "" : "bg-white shadow-sm bg-opacity-50"
           }`}
         >
-          <li><a className="font-Ovo" href="#top">Home</a></li>
-          <li><a className="font-Ovo" href="#about">About me</a></li>
-          <li><a className="font-Ovo" href="#services">Services</a></li>
-          <li><a className="font-Ovo" href="#work">My work</a></li>
-          <li><a className="font-Ovo" href="#contact">Contact me</a></li>
+          <li><a className="font-Ovo hover:text-gray-700 transition" href="#top">Home</a></li>
+          <li><a className="font-Ovo hover:text-gray-700 transition" href="#about">About me</a></li>
+          <li><a className="font-Ovo hover:text-gray-700 transition" href="#services">Services</a></li>
+          <li><a className="font-Ovo hover:text-gray-700 transition" href="#work">My work</a></li>
+          <li><a className="font-Ovo hover:text-gray-700 transition" href="#contact">Contact me</a></li>
         </ul>
 
         <div className="flex items-center gap-4">
-          <button>
-            <Image src={assets.moon_icon} alt="" className="w-6 cursor-pointer" />
-          </button>
-
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo bg-black text-white hover:bg-gray-800 transition"
           >
             Contact
-            <Image src={assets.arrow_icon} alt="" className="w-3" />
+            <Image src={assets.arrow_icon_dark} alt="" className="w-3 " />
           </a>
 
           <button className="block md:hidden ml-3" onClick={openMenu}>
-            <Image src={assets.menu_black} alt="" className="w-6" />
+            <Image src={assets.menu_black} alt="" className="w-6 " />
           </button>
         </div>
 
