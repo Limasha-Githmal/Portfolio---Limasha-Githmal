@@ -6,7 +6,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 mt-20 sm:mt-0">
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4 ">
       {/* Profile Image */}
       <div>
         <Image src={assets.profile_img} alt="Profile" className="rounded-full w-32" />
