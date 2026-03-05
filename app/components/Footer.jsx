@@ -32,7 +32,7 @@ export const Footer = () => {
 
           {/* GitHub */}
           <a
-            href="https://github.com/"
+            href="https://github.com/Limasha-Githmal"
             target="_blank"
             className="transition"
             style={{ color: "#181717" }}
@@ -42,7 +42,7 @@ export const Footer = () => {
 
           {/* LinkedIn */}
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/limasha-githmal-867897322/"
             target="_blank"
             className="transition"
             style={{ color: "#0A66C2" }}
@@ -52,7 +52,7 @@ export const Footer = () => {
 
           {/* Instagram */}
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/limashagithmal/"
             target="_blank"
             className="transition"
             style={{ color: "#E1306C" }}
@@ -62,7 +62,7 @@ export const Footer = () => {
 
           {/* Facebook */}
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/limasha.githmal/"
             target="_blank"
             className="transition"
             style={{ color: "#1877F2" }}

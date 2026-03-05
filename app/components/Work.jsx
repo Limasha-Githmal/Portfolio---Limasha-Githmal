@@ -5,40 +5,40 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 // Sample project data
 const projectsData = [
   {
-    name: "Portfolio Website",
-    category: "Web Development",
-    image: "/assets/work-1.png",
-    link: "https://your-portfolio.vercel.app",
-  },
-  {
-    name: "Geo Locator App",
+    name: "Traamp",
     category: "Mobile App",
+    image: "/assets/work-1.png",
+    link: "https://www.traamp.com/",
+  },
+  {
+    name: "Nature Lover's Inn",
+    category: "Web Application",
     image: "/assets/work-2.png",
-    link: "https://geo-app.vercel.app",
+    link: "https://www.natureloversinn.com/",
   },
   {
-    name: "Photography Site",
-    category: "Web Design",
+    name: "Hiphop Ceylon",
+    category: "Web Application",
     image: "/assets/work-3.png",
-    link: "https://photography-site.vercel.app",
+    link: "https://hiphop-ceylon.vercel.app/",
   },
   {
-    name: "UI/UX Dashboard",
+    name: "Maneth Tours",
     category: "Web Application",
     image: "/assets/work-4.png",
-    link: "https://dashboard.vercel.app",
+    link: "https://manethtours.vercel.app/",
   },
   {
-    name: "E-commerce App",
+    name: "Traamp Landing Page",
     category: "Web Development",
     image: "/assets/work-5.png",
-    link: "https://ecommerce.vercel.app",
+    link: "https://www.traamp.com/",
   },
   {
-    name: "Travel Booking App",
-    category: "Mobile App",
+    name: "Pizza Choice",
+    category: "PHP Learing Project",
     image: "/assets/work-6.png",
-    link: "https://travel-app.vercel.app",
+    link: "https://github.com/Limasha-Githmal/Pizza-Choice",
   },
 ];
 

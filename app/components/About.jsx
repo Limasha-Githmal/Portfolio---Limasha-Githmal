@@ -20,7 +20,7 @@ function About() {
         {/* Profile Image */}
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">
           <Image
-                src="/assets/user-image.png"  // path relative to public/
+                src="/assets/user-image.jpeg"  // path relative to public/
                 alt="user"
                 width={400}
                 height={400}
